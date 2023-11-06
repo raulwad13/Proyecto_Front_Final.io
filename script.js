@@ -27,7 +27,7 @@ async function displayCharacters(name, films) {
       card.classList.add("character_card");
   
       console.log("Nombre del personaje: " + character.name);
-    // card.innerHTML =
+    card.innerHTML =
   }
 }
 displayCharacters();
