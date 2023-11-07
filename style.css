@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
 }
-/* INDEX */
-* {
-  box-sizing: border-box;
+
+html{
+    height: 100%;
 }
 
 body {
@@ -17,10 +17,20 @@ body {
 #index_background {
   background: url("https://mymodernmet.com/wp/wp-content/uploads/2020/04/star-wars-video-call-backgrounds-thumbnail.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-#cabecera{
+
+/* #cabecera{
+} */
+.index_title {
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
+  color: yellow;
 }
-h1 {
+
+.search_title {
   text-align: center;
   font-size: 36px;
   margin: 20px 0;
@@ -39,8 +49,66 @@ h3 {
   border-radius: 5px;
   margin: 20px auto;
   max-width: 400px;
-  color: #fff; /* Cambia el color del texto */
+  color: #fff;
 }
+#sign_up{
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login_did {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+}
+
+#login_did img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#login_did h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#login_did p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin: 0;
+    color: #666;
+}
+
+#login_did button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#login_did button:hover {
+    background-color: #0056b3;
+}
+
 
 section {
   text-align: center;
@@ -74,16 +142,16 @@ p {
 }
 /* BUSCADOR */
 body {
-  background-color: #f0f0f0;
+  background: url("https://img.freepik.com/fotos-premium/ilustracion-fondo-cielo-nocturno-estrellado_53876-150100.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais");
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-#filter {
+/* #filter {
   text-align: center;
   color: #333;
-}
+} */
 
 h2 {
   text-align: center;
@@ -101,11 +169,27 @@ h2 {
   width: 100%;
   max-width: 300px;
 }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
 
-.container {
-  width: 80%;
-  max-width: 1200px;
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#spinner {
+
+  display: flex;
   margin: 0 auto;
+  margin-top: 10px;
+  border: 4px solid rgb(196, 41, 41);
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  animation: spin 1s linear infinite;
 }
 
 #character {
@@ -117,8 +201,9 @@ h2 {
 .character_card {
   width: 200px;
   margin: 10px;
+  margin-top: 50px;
   padding: 10px;
-  background-color: #fff;
+  background-color: #fafafa;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
@@ -135,23 +220,25 @@ img {
 
 p {
   font-size: 14px;
-  color: #555;
+  color: #000000;
   margin: 8px 0;
-  text-align: left;
+  text-align: center;
 }
 
 #card_body {
-  background: url("https://img.freepik.com/fotos-premium/ilustracion-fondo-cielo-nocturno-estrellado_53876-150100.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais");
+  /* background: url("https://img.freepik.com/fotos-premium/ilustracion-fondo-cielo-nocturno-estrellado_53876-150100.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais"); */
   background-size: cover;
 }
 
 #search_button {
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
   background-color: #0078d4;
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 10px 16px;
+  padding: 8px 12px;
+  margin-top: 6px;
   font-size: 12px;
   cursor: pointer;
 }
