@@ -7,24 +7,24 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./assets/pngwing.com.png" />
   </head>
-  <body>
+  <body id="search_body">
     <section id="avatar_user"></section>
     <h1>STAR WARRIORS</h1>
     <article id="card_body">
-      <h3 id="buscador">buscar</h3>
-      <select id="name_filter">
-        <input type="text"  id="film_filter" placeholder="Filtrado por nombre">
-        <option value="">Filtrar por pelicula</option>
+      <select id="film_filter">
+        <input type="text"  id="name_filter" placeholder="Search">
+        <input  id="search_button" type="submit" value="Buscar">
+        <!-- <option value="">Filtrar por pelicula</option>
         <option value="films 1"></option>
         <option value="films 2"></option>
         <option value="films 3"></option>
         <option value="films 4"></option>
         <option value="films 5"></option>
-        <option value="films 6"></option>
+        <option value="films 6"></option> -->
       </select>
       <section id="container">
         <div id="character">
-          <p id="character_logo"></p>
+          <p class="character_cardimg"></p>
         </div>
       </section>
     </article>

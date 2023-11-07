@@ -1,46 +1,161 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
+}
+/* INDEX */
+* {
+  box-sizing: border-box;
 }
 
-body{
-    background-color: aliceblue;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 100%;
+  padding: 100%;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
-h1, #filter{
-    text-align: center;
+#index_background {
+  background: url("https://mymodernmet.com/wp/wp-content/uploads/2020/04/star-wars-video-call-backgrounds-thumbnail.jpg");
+  background-size: cover;
+}
+#cabecera{
+}
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
+  color: yellow;
 }
 
-#filter input, #filter #film_filter {
-    padding: 8px 16px;
-    margin: 10px;
-    border: 0;
-    font-size: 18px;
-    border: 1px solid gainsboro;
-    border-radius: 5px;
-} 
-
-.container{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;   
+h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
 }
 
-#characters {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#index_web {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 400px;
+  color: #fff; /* Cambia el color del texto */
 }
 
-.character_card{
-    width: 200px;
-    margin: 5px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 8px;
-    
+section {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.character_cardimg{
-    width: 100%;
+a {
+  display: block;
+  text-align: center;
+  background-color: #0078d4; /* Cambia el color del botón */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 200px;
+}
+
+a:hover {
+  background-color: #0058a9; /* Cambia el color del botón al pasar el cursor */
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+/* BUSCADOR */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#filter {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+#name_filter {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  margin: 0 auto;
+  font-size: 18px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#character {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character_card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.character_card:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+  margin: 8px 0;
+  text-align: left;
+}
+
+#card_body {
+  background: url("https://img.freepik.com/fotos-premium/ilustracion-fondo-cielo-nocturno-estrellado_53876-150100.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais");
+  background-size: cover;
+}
+
+#search_button {
+    margin: 0 auto;
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 16px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#search_button:hover {
+  background-color: #0058a9;
 }
