@@ -1,6 +1,6 @@
 # Star Wars Search Engine
 
-![https://blog.camaralia.com/wp-content/uploads/2016/01/Star-Wars-Blu-ray1.jpg]
+![Star-Wars-Blu-ray1.jpg]
 
 This Star Wars search engine is a web application that allows you to search for information about characters, spaceships, planets, and more from the Star Wars universe. It utilizes [`http swapi.dev/api/`] to fetch the data and Firebase Firestore to store and manage the database.
 
