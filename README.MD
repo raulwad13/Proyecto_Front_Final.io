@@ -28,6 +28,8 @@ This Star Wars search engine is a web application that allows you to search for 
 3. Use the `buscador.html` page to search for specific elements.
 4. Enjoy the details and information about your favorite characters, spaceships, and planets.
 
+"http://127.0.0.1:5500/index.html"
+
 ## Project Planning
 
 The planning and organization of this project were carried out using Trello. We used Trello boards to manage tasks, set priorities, and keep track of project milestones. It played a crucial role in ensuring a smooth development process.
