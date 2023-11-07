@@ -8,46 +8,31 @@
     <link rel="icon" href="./assets/pngwing.com.png" />
   </head>
   <body id="search_body">
-    <section id="avatar_user"></section>
-    <h1>STAR WARRIORS</h1>
+    <!-- <section id="avatar_user"></section> -->
+    <h1 class="search_title">STAR WARRIORS</h1>
     <article id="card_body">
-      <select id="film_filter">
-        <input type="text"  id="name_filter" placeholder="Search">
-        <input  id="search_button" type="submit" value="Buscar">
-        <!-- <option value="">Filtrar por pelicula</option>
-        <option value="films 1"></option>
-        <option value="films 2"></option>
-        <option value="films 3"></option>
-        <option value="films 4"></option>
-        <option value="films 5"></option>
-        <option value="films 6"></option> -->
-      </select>
-      <section id="container">
-        <div id="character">
-          <p class="character_cardimg"></p>
-        </div>
-      </section>
+      <form id="character_form">
+        <input
+          type="text"
+          id="name_filter"
+          placeholder="Search"
+          name="name_filter"
+        />
+        <input
+          id="search_button"
+          name="search_button"
+          type="submit"
+          value="Buscar"
+        />
+      </form>
+      <img id="spinner">
+      <div id="character">
+        <p class="character_cardimg"></p>
+      </div>
     </article>
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- Nombre del personaje: Luke Skywalker
 script.js:29 Nombre del personaje: C-3PO
