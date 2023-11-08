@@ -63,4 +63,4 @@ This project will continue to improve and expand in the future. Some potential f
 
 If you are interested in contributing or have ideas for future projects, feel free to contact Raúl Awad, the creator of this application.
 
-# THANKS SO MUCH!!!!
+# THANK YOU SO MUCH!!!!
