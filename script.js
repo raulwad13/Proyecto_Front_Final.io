@@ -161,7 +161,7 @@ auth.onAuthStateChanged((user) => {
     index.style = "display:none";
     loginDid.style = "display:";
   } else {
-    start_button.style="display:"
+    start_button.style="display:none"
     index.style = "display:";
     loginDid.style = "display:none";
   }
