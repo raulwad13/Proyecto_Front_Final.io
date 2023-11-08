@@ -1,7 +1,4 @@
 <div align="center">
-
-# FrontEnd Final Project
-
   <img src="./assetsReadme/CABECERA.png" width=200><br>
   
 
