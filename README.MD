@@ -1,6 +1,18 @@
-# Star Wars Search Engine
+<div align="center">
 
-![Star-Wars-Blu-ray1.jpg]
+# FrontEnd Final Project
+
+  <img src="./assetsReadme/CABECERA.png" width=200><br>
+  
+
+Welcome to my STAR WARS web page: 
+STAR WARRIORS
+
+[Click to see the web presentation](https://www.canva.com/design/DAFzk3yfjl8/lFnF5o9-RxQYfKfrjCsbhQ/edit?utm_content=DAFzk3yfjl8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+</div>
+
+
+# Star Wars Search Engine
 
 This Star Wars search engine is a web application that allows you to search for information about characters, spaceships, planets, and more from the Star Wars universe. It utilizes [`http swapi.dev/api/`] to fetch the data and Firebase Firestore to store and manage the database.
 
@@ -28,20 +40,20 @@ This Star Wars search engine is a web application that allows you to search for 
 3. Use the `buscador.html` page to search for specific elements.
 4. Enjoy the details and information about your favorite characters, spaceships, and planets.
 
-"http://127.0.0.1:5500/index.html"
+[click to enjoy](https://raulwad13.github.io/Proyecto_Front_Final.io/)
 
 ## Project Planning
 
 The planning and organization of this project were carried out using Trello. We used Trello boards to manage tasks, set priorities, and keep track of project milestones. It played a crucial role in ensuring a smooth development process.
 
-If you want to see the project's planning and progress, you can access our Trello board [screenTrello.PNG].
+If you want to see the project's planning and progress, you can access our Trello board   <img src="./assetsReadme/screenTrello.png" width=200><br>.
 
 ## Screenshots
 
-![screenIndex.PNG]
-![screenGoogle.PNG]
-![screenRegister.PNG]
-![screenSearch.PNG]
+  <img src="./assetsReadme/screenIndex.png" width=200><br>
+  <img src="./assetsReadme/screenGoogle.png" width=200><br>
+  <img src="./assetsReadme/screenSearch.png" width=200><br>
+
 
 ## Future Projects
 
