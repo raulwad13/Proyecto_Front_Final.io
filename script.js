@@ -142,7 +142,6 @@ if (window.location.pathname === "/buscador.html") {
   displayCharacters();
   nameFilter.addEventListener("submit", (event) => {
     event.preventDefault();
-    // console.log(event.target.elements.name_filter.value);
     displayCharacters(event.target.elements.name_filter.value);
   });
 }
